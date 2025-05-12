@@ -4,52 +4,127 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ramtin Tafaghodi</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+    .profile-img {
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid #3498db;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #3498db;
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+    }
+    p, li, a {
+      font-size: 1rem;
+      color: #ccc;
+    }
+    a {
+      text-decoration: none;
+      color: #3498db;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .card {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .card h3 {
+      margin-bottom: 5px;
+      color: #fff;
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <img src="profile.jpg" alt="Ramtin Tafaghodi" class="profile-img" />
-
-    <h1>Hi, I'm Ramtin 👋</h1>
-    <p>
-      Computer Engineering student at Politecnico di Torino.<br />
-      Passionate about backend development and solving real-world problems.
-    </p>
+    <h1>Ramtin Tafaghodi</h1>
+    <p>Backend Developer · Computer Engineering student at Politecnico di Torino</p>
 
     <h2>👨‍💻 About Me</h2>
     <p>
-      I'm Ramtin Tafaghodi, a backend-focused developer skilled in Java and Spring Boot.
-      I enjoy building efficient APIs, working with databases like MySQL and Redis, and continuously learning new technologies.
+      I'm passionate about backend development, building REST APIs, and working with Spring Boot, MySQL, and Redis. Always eager to learn and take on new challenges.
     </p>
 
     <h2>🛠 Tech Stack</h2>
     <ul>
       <li>Java (Spring Boot)</li>
-      <li>MySQL & Redis</li>
-      <li>REST APIs & Postman</li>
-      <li>Git & GitHub</li>
+      <li>MySQL, Redis</li>
+      <li>REST API, Postman</li>
+      <li>Git, GitHub</li>
     </ul>
 
     <h2>💼 Projects</h2>
     <div class="projects">
       <div class="card">
         <h3>Online Shop Backend</h3>
-        <p>Spring Boot, MySQL, Redis</p>
-        <a href="https://github.com/ramtintafaq/OnlineShop" target="_blank">View on GitHub</a>
+        <p>Java, Spring Boot, MySQL, Redis</p>
+        <a href="https://github.com/ramtintafaq/OnlineShop" target="_blank">View Project</a>
       </div>
       <div class="card">
-        <h3>Driverless Challenge</h3>
-        <p>Sensor data handling, C++ & PostgreSQL</p>
-        <a href="https://github.com/ramtintafaq/Driverless" target="_blank">View on GitHub</a>
+        <h3>Job Portal</h3>
+        <p>Spring Boot job application and listing system</p>
+        <a href="https://github.com/ramtintafaq/JobPortal" target="_blank">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Snake Game</h3>
+        <p>Terminal-based Snake Game in C++ with color and multiplayer features</p>
+        <a href="https://github.com/ramtintafaq/Snake-Game" target="_blank">View Project</a>
       </div>
     </div>
 
-    <h2>📫 Contact</h2>
+    <h2>📧 Contact</h2>
     <p>
-      <a href="mailto:ramtin.tfgh2001@gmail.com">Email me</a><br />
-      <a href="https://www.linkedin.com/in/ramtintafaghodi">LinkedIn</a><br />
+      <a href="mailto:ramtin.tfgh2001@gmail.com">Email</a> ·
+      <a href="https://linkedin.com/in/ramtintafaghodi">LinkedIn</a> ·
       <a href="https://github.com/ramtintafaq">GitHub</a>
     </p>
+
+    <div class="footer">
+      &copy; 2025 Ramtin Tafaghodi
+    </div>
   </div>
 </body>
 </html>
